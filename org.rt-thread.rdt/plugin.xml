@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.rtthread.configurator.REditor"
+            default="true"
+            filenames="rtconfig.h"
+            icon="icons/configurator.gif"
+            id="org.rtthread.configurator.reditor"
+            name="RT-Thread Configurator">
+      </editor>
+   </extension>
+
+</plugin>

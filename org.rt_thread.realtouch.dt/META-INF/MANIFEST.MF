@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RealTouch Development Toolkit
+Bundle-SymbolicName: org.rt_thread.realtouch.dt;singleton:=true
+Bundle-Version: 0.1.2
+Bundle-Activator: org.rt_thread.realtouch.dt.RTDTPlugin
+Bundle-Vendor: RT-Thread
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.cdt.core,
+ org.eclipse.cdt.ui,
+ org.eclipse.core.resources,
+ org.eclipse.ui.console,
+ org.eclipse.cdt.managedbuilder.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.filesystem,
+ org.eclipse.ui,
+ org.eclipse.ui.actions,
+ org.eclipse.ui.dialogs,
+ org.eclipse.ui.views.navigator,
+ org.eclipse.ui.wizards.newresource
